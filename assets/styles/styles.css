@@ -1,0 +1,100 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  background-color: red;
+}
+
+.house {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 100px auto;
+  width: fit-content;
+  background-color: #000;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  padding: 20px 20px 50px 20px;
+  gap: 1rem;
+
+}
+
+.screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+  height: 20vh;
+  background-color: #fff;
+}
+
+.btnzHolder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  gap: 1rem;
+}
+
+button {
+  border: 1px solid #ffffff00;
+  border-radius: 50px;
+  color: #c9c9c9;
+  background-color: #111010e3;
+  padding: 10px;
+  font-size: 19px;
+}
+
+#sil {
+  background-color: #919191;
+  color: #000;
+}
+
+#yel {
+ background-color: #c88200;
+}
+
+.btnzHolder .btnz1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.btnzHolder .btnz2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.btnzHolder .btnz3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.btnzHolder .btnz4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.btnzHolder .btnz5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 1rem;
+}
