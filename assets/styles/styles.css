@@ -47,7 +47,7 @@ p {
 }
 
 button {
-  border: 1px solid #fff0;
+  border: none;
   border-radius: 50px;
   color: #fff;
   background-color: #111010e3;
@@ -93,7 +93,7 @@ button {
   padding: 18px;
 
   /* width: 10vw; */
-  border: 1px solid #fff0;
+  border: none;
   border-radius: 50px;
 
   /* gap: 4rem; */
@@ -118,7 +118,7 @@ button {
   padding: 18px;
 
   /* width: 10vw; */
-  border: 1px solid #fff0;
+  border: none;
   border-radius: 50px;
 
   /* gap: 4rem; */
@@ -143,7 +143,7 @@ button {
   padding: 18px;
 
   /* width: 10vw; */
-  border: 1px solid #fff0;
+  border: none;
   border-radius: 50px;
 
   /* gap: 4rem; */
