@@ -3,43 +3,108 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/styles/styles.css">
-    <title>Functional Calculator</title>
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <title>Simple Calculator App</title>
   </head>
   <body>
-  <div class="house">
-    <div class="screen"></div>
-    <div class="btnzHolder">
-      <div class="btnz1">
-        <button id="sil">AC</button>
-        <button id="sil">+/-</button>
-        <button id="sil">%</button>
-        <button id="yel">÷</button>
+    <div class="house">
+      
+      <input type="text" class="js-screen screen" placeholder="0" disabled>
+
+      <div class="btnzholder">
+        <div class="btnz1 ">
+
+          <button onclick="
+            clearScreen()
+          " class="sil">ac</button>
+
+          <button onclick="
+            delleteCharacter()
+          " class="sil">del</button>
+
+          <button onclick="
+            updateCalculation('**');
+          " class="sil">^</button>
+
+          <button onclick="
+            updateCalculation(' / ');
+          " class="yel">/</button>
+        </div>
+
+        <div class="btnz2">
+
+          <button onclick="
+            updateCalculation('7');
+          ">7</button>
+
+          <button onclick="
+            updateCalculation('8');
+          ">8</button>
+
+          <button onclick="
+            updateCalculation('9');
+          ">9</button>
+
+          <button onclick="
+           updateCalculation(' * ');
+          " class="yel">x</button>
+        </div>
+
+        <div class="btnz3">
+          <button onclick="
+            updateCalculation('4');
+          ">4</button>
+
+          <button onclick="
+            updateCalculation('5');
+          ">5</button>
+
+          <button onclick="
+            updateCalculation('6');
+          ">6</button>
+
+          <button onclick="
+            updateCalculation(' - ');
+          " class="yel">-</button>
+        </div>
+
+        <div class="btnz4">
+          <button onclick="
+            updateCalculation('1');
+          ">1</button>
+
+          <button onclick="
+            updateCalculation('2');
+          ">2</button>
+
+          <button onclick="
+            updateCalculation('3');
+          ">3</button>
+
+          <button onclick="
+            updateCalculation(' + ');
+          " class="yel">+</button>
+        </div>
+
+        <div class="btnz5">
+          <button onclick="
+            updateCalculation('0');
+          " class="spn">0</button>
+
+          <button onclick="
+            updateCalculation('.');
+          ">.</button>
+
+          <button onclick="
+            evaluateOperation()
+          " class="yel">=</button>
+        </div>
       </div>
-      <div class="btnz2">
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button id="yel">x</button>
-      </div>
-      <div class="btnz3">
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button id="yel">-</button>
-      </div>
-      <div class="btnz4">
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button id="yel">+</button>
-      </div>
-      <div class="btnz5">
-        <button>0</button>
-        <button>.</button>
-        <button id="yel">=</button>
-      </div>
+      <span><a href="#" class="about"><b>-<em> sdi</em> -Tex -</b></a></span>
     </div>
-  </div>
+
+
+    <!-- <script src="./assets/scripts/objcalc.js"></script> -->
+    <script src="./assets/scripts/index.js"></script>
   </body>
 </html>
